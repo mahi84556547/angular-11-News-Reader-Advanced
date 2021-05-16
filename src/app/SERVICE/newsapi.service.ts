@@ -9,12 +9,12 @@ export class NewsapiService {
 
   constructor(public _http:HttpClient) { }
 
-newsApiUrl = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9df272c7e7c743e8981b44753a88dbe0"
-newsApiUrl1 = " https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=9df272c7e7c743e8981b44753a88dbe0"
-newsApiUrl2 = " https://newsapi.org/v2/top-headlines?country=de&category=entertainment&apiKey=9df272c7e7c743e8981b44753a88dbe0"
-newsApiUrl3 = " https://newsapi.org/v2/top-headlines?country=de&category=sports&apiKey=9df272c7e7c743e8981b44753a88dbe0"
-newsApiUrl4 = " https://newsapi.org/v2/top-headlines?country=de&category=technology&apiKey=9df272c7e7c743e8981b44753a88dbe0"
-newsApiUrl5 = " https://newsapi.org/v2/top-headlines?country=de&category=health&apiKey=9df272c7e7c743e8981b44753a88dbe0"
+newsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
+newsApiUrl1 = " https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
+newsApiUrl2 = " https://newsapi.org/v2/top-headlines?country=de&category=entertainment&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
+newsApiUrl3 = " https://newsapi.org/v2/top-headlines?country=de&category=sports&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
+newsApiUrl4 = " https://newsapi.org/v2/top-headlines?country=de&category=technology&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
+newsApiUrl5 = " https://newsapi.org/v2/top-headlines?country=de&category=health&apiKey=0e6d4be8777a4585bcfaa3db4ec3a09c"
 
 
 getAllNews():Observable<any>{
